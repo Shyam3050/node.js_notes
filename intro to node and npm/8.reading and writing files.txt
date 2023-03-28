@@ -1,0 +1,19 @@
+const fs = require("fs")
+const text = fs.readFileSync("file path", "file encoading");
+const text = fs.readFileSync("./text/input.txt", "utf-8");
+console.log(text) // input file data
+
+
+creating new file and inserting the data onto 
+
+const fs = require("fs");
+
+const text =fs.readFileSync("./txt/input.txt", "utf-8")
+console.log(text)
+
+const textOut = `This is what we know about avacado: ${text} \n created on ${Date.now()}`
+fs.writeFileSync("./txt/output.txt", textOut);
+console.log("finishing")
+
+// writeFileSync("location/file name", "data")// on txt folder output.txt file is created and put the textOut data onto it.
+

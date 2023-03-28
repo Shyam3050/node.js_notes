@@ -1,0 +1,3 @@
+// Node js is a run time environment like for running js in browser we have js engines like V8 engine.
+// suppose we need to run js code on pc what should i do simply install the node.js which run time 
+environment of js which runs the js code.

@@ -1,0 +1,5 @@
+const fs = require("fs");
+console.log(fs);
+// for using node modules we need to import those module onto js file.
+// in node we use require() which converts modules into objects having some functions related to that module.
+// here we use FILE SYSTEM module for reading & writing files of harddrive.
