@@ -1,0 +1,3 @@
+// in this section we create a .html files with dynamic data 
+
+// {%PRODUCTNAME%} // like this

@@ -1,0 +1,17 @@
+const fs = require("fs");
+// const text =fs.readFileSync("./txt/input.txt", "utf-8")
+// console.log(text)
+
+// const textOut = `This is what we know about avacado: ${text} \n created on ${Date.now()}`
+// fs.writeFileSync("./txt/photo.psd", textOut);
+// console.log("finishing");
+
+//  fs.readFile("./txt/input.txt", "utf-8", (err, data) => {
+//     console.log(data)
+//  })
+
+// syncronous are blocking when have to do huge operations its may take lot time.
+// asyncronous are non-blocking code
+// its runs on background not block the code exicution.
+// when the file completly read then the callback function will called.
+
