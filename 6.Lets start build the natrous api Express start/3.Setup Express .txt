@@ -1,0 +1,28 @@
+const express = require("express")
+const app = express();
+
+// start the server
+ const port = 3000;
+app.listen(port, () =>{
+    console.log("app is Starting")
+})
+
+// basic api routing setup
+
+// app.get(route, routeHandler Function)
+
+app.get("/api/tours", (req, res) =>{
+    res.send("done")
+})
+
+// But in node.js we do for server
+const http = require('http')
+const server = http.CreateServer((req,res) =>{
+    const url = req.url;
+    if(url === "/overview"){
+        res.end("overview Page")
+    }
+})
+server.listen(port, ip, ()=>{})
+
+// but in Express it easy of implementing.

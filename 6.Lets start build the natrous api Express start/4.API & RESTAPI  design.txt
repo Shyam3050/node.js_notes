@@ -1,0 +1,16 @@
+API : application programming interface.
+a pieace of software that can be used by another piece of software in order to
+allow application to talk each other.
+
+The Rest Architecture.
+
+1. separate API  into logical resources.
+ resource: Object or representation of something. which has data associated to it.
+ https://www.xyz.com/tours
+2. structured url
+https://www.xyz.com/tours
+3. use HTTP methods.
+Post 
+4. sned data as Json.
+5. Be stateless
+
