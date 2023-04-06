@@ -1,0 +1,14 @@
+app.get('./api/v1/tours', () => {})
+when some one hit this url then route handler function will called.
+
+// json.parce() // it returns an object
+
+app.get('/api/v1/tours', (req,res) =>{
+    res.status(200).json({
+        status: "success",
+        data: {
+            
+        }
+    })
+})
+// here json() convert normal object into json. then client receives json format.

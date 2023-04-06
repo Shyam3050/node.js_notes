@@ -7,10 +7,34 @@ The Rest Architecture.
 1. separate API  into logical resources.
  resource: Object or representation of something. which has data associated to it.
  https://www.xyz.com/tours
+ 
 2. structured url
 https://www.xyz.com/tours
+
 3. use HTTP methods.
-Post 
+
+POST : /tours: create
+GET : /tours : read
+PUT/PATCH :/tours/7 : update 
+DELETE : /tours/3 : delete
+
+End points are same for all GET, POST, PUT, DELETE but incase of GET we send back
+data to client, but POST we expect data from client.
+
 4. sned data as Json.
+json is a light weight format of data which is used to sharing over internet.
+
 5. Be stateless
 
+All state is handled on the client this means that each request must contains all the
+information necessary to process a certain request. The server should not have
+to remember previous request.
+
+BAD : GET /tours/nextpage
+
+server         nextpage = currentPage + 1
+             send(nextpage)
+
+Good: GET /tours/page/8
+
+server         send(8)             

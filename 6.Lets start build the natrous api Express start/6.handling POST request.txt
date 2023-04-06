@@ -1,0 +1,25 @@
+on the post request we can send data from client to server.
+this data idealy avilable on req parameter.
+req have all the  data about the request .
+
+
+// A middelware is a just function it modifies incoming request data.
+
+app.use(express.json());
+
+app.post("/url", (req, res) => {
+    req.body // receive posted data
+})
+
+////////////////
+NOTE: Object.assign() // it combine two objects together and return new object.
+ex:  const obj1 = {
+    id: 2
+}
+const obj2 = {
+    name: "shyam"
+}
+Object.assign(obj1, obj2) // {id: 2, name: 'shyam'}
+
+////////////////
+
