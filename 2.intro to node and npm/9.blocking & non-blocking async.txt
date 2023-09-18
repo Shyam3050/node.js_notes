@@ -6,6 +6,7 @@ const fs = require("fs");
 // fs.writeFileSync("./txt/photo.psd", textOut);
 // console.log("finishing");
 
+// Async reading
 //  fs.readFile("./txt/input.txt", "utf-8", (err, data) => {
 //     console.log(data)
 //  })

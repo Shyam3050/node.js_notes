@@ -1,2 +1,0 @@
-// Implementing different actions for different urls.
-// we send different data according to the url.

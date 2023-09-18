@@ -1,1 +1,4 @@
 Api is a service from which we can request some to server.
+
+from server to client data will sent as a json format.
+

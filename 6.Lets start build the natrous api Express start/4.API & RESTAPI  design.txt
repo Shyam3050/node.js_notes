@@ -32,9 +32,11 @@ to remember previous request.
 
 BAD : GET /tours/nextpage
 
+// server will need to remember the currentpage
 server         nextpage = currentPage + 1
              send(nextpage)
 
 Good: GET /tours/page/8
 
-server         send(8)             
+// server will directly send page 8.
+server         send(8)        
